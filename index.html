@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Angry Proposal 😠❤️</title>
+
+<style>
+body{
+    background:#1f1f1f;
+    color:white;
+    text-align:center;
+    font-family:Arial;
+    margin-top:100px;
+}
+
+h1{
+    color:red;
+    font-size:50px;
+}
+
+button{
+    padding:15px 30px;
+    font-size:18px;
+    margin:15px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+#yes{
+    background:green;
+    color:white;
+}
+
+#no{
+    background:red;
+    color:white;
+}
+
+#message{
+    margin-top:30px;
+    font-size:28px;
+    color:yellow;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>😠 Listen Mister!</h1>
+
+<h2>I am very angry!</h2>
+
+<p style="font-size:22px;">
+Enough excuses! 😤<br>
+Today you have only one job...
+</p>
+
+<h1>Will You Be My Forever? ❤️</h1>
+
+<button id="yes" onclick="yes()">YES 😍</button>
+<button id="no" onclick="no()">NO 😅</button>
+
+<p id="message"></p>
+
+<script>
+
+function yes(){
+    document.getElementById("message").innerHTML =
+    "Good Decision! 😎❤️ Now you are officially mine forever! 💍";
+}
+
+function no(){
+    document.getElementById("message").innerHTML =
+    "Wrong Answer! 😠 Try Again... I'm not accepting 'No' today! 😂❤️";
+}
+
+</script>
+
+</body>
+</html>
